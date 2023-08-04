@@ -32,7 +32,6 @@ const addVideo = async (video) => {
 };
 
 const updateVideo = async (id, video) => {
-  console.log("here", video);
   try {
     let response = await axios.put(API_URL + `/api/videos/${id}`, video);
     console.log("video updated successfully:", response.data);
