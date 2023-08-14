@@ -5,7 +5,7 @@ import ModalContentCustomers from "../modals/modal_content_customers";
 
 const ModalMain = (props) => {
   const title =
-    (props.dataType === "video" ? "video" : "customer") + " details";
+    props.action + " " + (props.dataType === "video" ? "video" : "customer");
 
   return (
     <>

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let API_URL = "https://localhost:7198";
+let API_URL = "http://localhost:5254";
 
 const getCustomersList = async () => {
   try {
